@@ -17,7 +17,7 @@ def send_email():
         msg['From'] = EMAIL_ADDRESS
         msg['To'] = EMAIL_ADDRESS
         msg['Date'] = formatdate(localtime=True)
-        msg['Subject'] = "Test Email from Python"
+        msg['Subject'] = "From om test again"
         
         body = "Hello test again."
         msg.attach(MIMEText(body, 'plain'))
